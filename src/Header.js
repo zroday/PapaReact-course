@@ -1,6 +1,7 @@
 import React from 'react'
 
 //BEM - Block Element Modifier
+//BEM - Block Element modifier
 
 function Header() {
     return (
