@@ -1,5 +1,7 @@
 * {
   margin: 0;
+  /* CSS Variables */
+  --error-color: red;
 }
 
 body {

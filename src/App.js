@@ -1,10 +1,13 @@
 import React from "react";
 import Product from "./Product";
+import style from "./App.module.css";
 
 function App() {
   return (
     <div>
       <h1>Welcome to my App</h1>
+      <h2 className={style.error}>An error occured</h2>
+
       <Product
         name="Amazon Echo"
         description="Your AI assistant"
