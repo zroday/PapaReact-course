@@ -1,19 +1,14 @@
-import './App.css';
-import Header from './Header';
+//class base component
+import React, { Component } from 'react'
 
-//BEM - Block Element modifier
-//BEM - Block Element modifier
-function App() {
-  return (
-    <div className="App">
-      <Header/>
-       <h1 className="app__title">This is a title</h1>
-       
-
-       
-      
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <h1>Hello World</h1>
+      </div>
+    )
+  }
 }
 
 export default App;
